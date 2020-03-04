@@ -20,6 +20,7 @@
 		23F938F3240F8DB300517F62 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F2240F8DB300517F62 /* Menu.swift */; };
 		23F938F5240F8F4D00517F62 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F4240F8F4D00517F62 /* Order.swift */; };
 		23F938F7240FA13500517F62 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F6240FA13500517F62 /* ItemRow.swift */; };
+		23F938F9240FAF7F00517F62 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F8240FAF7F00517F62 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		23F938F2240F8DB300517F62 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		23F938F4240F8F4D00517F62 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		23F938F6240FA13500517F62 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		23F938F8240FAF7F00517F62 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				23F938C6240F882A00517F62 /* Preview Content */,
 				23F938F4240F8F4D00517F62 /* Order.swift */,
 				23F938F6240FA13500517F62 /* ItemRow.swift */,
+				23F938F8240FAF7F00517F62 /* ItemDetail.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				23F938C1240F881E00517F62 /* SceneDelegate.swift in Sources */,
 				23F938F7240FA13500517F62 /* ItemRow.swift in Sources */,
 				23F938C3240F881E00517F62 /* ContentView.swift in Sources */,
+				23F938F9240FAF7F00517F62 /* ItemDetail.swift in Sources */,
 				23F938EF240F896D00517F62 /* Helper.swift in Sources */,
 				23F938F3240F8DB300517F62 /* Menu.swift in Sources */,
 			);
