@@ -29,6 +29,10 @@ struct ItemDetail: View {
             Button("Order This"){
                 self.order.add(item: self.item)
             }.font(.headline)
+                .padding(10)
+                .background(Color.black)
+                .foregroundColor(Color.white)
+                .cornerRadius(10)
             Spacer()
         }
         .navigationBarTitle(Text(item.name),displayMode: .inline)
