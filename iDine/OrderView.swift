@@ -12,25 +12,28 @@ struct OrderView: View {
     
     @EnvironmentObject var order : Order
     var body: some View {
-        List{
-            Section{
-                ForEach(order.items){item in
-                    HStack{
-                        Text(item.name)
-                        Spacer()
-                        Text("$\(item.price)")
+        NavigationView{
+            List{
+                Section{
+                    ForEach(order.items){item in
+                        HStack{
+                            Text(item.name)
+                            Spacer()
+                            Text("$\(item.price)")
+                        }
+                        
                     }
-                    
                 }
-            }
-            
-            Section{
-                NavigationLink(destination: Text("Check Out")){
-                    Text("Place Order")
+                
+                Section{
+                    NavigationLink(destination: CheckoutView()){
+                        Text("Place Order")
+                    }
                 }
+                
             }
-            
         }
+        
     .navigationBarTitle("Order")
     .listStyle(GroupedListStyle())
     }

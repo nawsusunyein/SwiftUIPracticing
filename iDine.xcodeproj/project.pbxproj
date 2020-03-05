@@ -23,6 +23,7 @@
 		23F938F9240FAF7F00517F62 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F8240FAF7F00517F62 /* ItemDetail.swift */; };
 		23F938FB240FBEB400517F62 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938FA240FBEB400517F62 /* OrderView.swift */; };
 		23FC40E52410A0390083F498 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC40E42410A0390083F498 /* AppView.swift */; };
+		23FC40E72410A6B80083F498 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC40E62410A6B80083F498 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		23F938F8240FAF7F00517F62 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		23F938FA240FBEB400517F62 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		23FC40E42410A0390083F498 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		23FC40E62410A6B80083F498 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				23F938F8240FAF7F00517F62 /* ItemDetail.swift */,
 				23F938FA240FBEB400517F62 /* OrderView.swift */,
 				23FC40E42410A0390083F498 /* AppView.swift */,
+				23FC40E62410A6B80083F498 /* CheckoutView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F938F5240F8F4D00517F62 /* Order.swift in Sources */,
+				23FC40E72410A6B80083F498 /* CheckoutView.swift in Sources */,
 				23F938BF240F881E00517F62 /* AppDelegate.swift in Sources */,
 				23F938C1240F881E00517F62 /* SceneDelegate.swift in Sources */,
 				23F938F7240FA13500517F62 /* ItemRow.swift in Sources */,
