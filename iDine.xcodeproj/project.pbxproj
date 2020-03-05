@@ -21,6 +21,8 @@
 		23F938F5240F8F4D00517F62 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F4240F8F4D00517F62 /* Order.swift */; };
 		23F938F7240FA13500517F62 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F6240FA13500517F62 /* ItemRow.swift */; };
 		23F938F9240FAF7F00517F62 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938F8240FAF7F00517F62 /* ItemDetail.swift */; };
+		23F938FB240FBEB400517F62 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F938FA240FBEB400517F62 /* OrderView.swift */; };
+		23FC40E52410A0390083F498 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC40E42410A0390083F498 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		23F938F4240F8F4D00517F62 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		23F938F6240FA13500517F62 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		23F938F8240FAF7F00517F62 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		23F938FA240FBEB400517F62 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		23FC40E42410A0390083F498 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				23F938F4240F8F4D00517F62 /* Order.swift */,
 				23F938F6240FA13500517F62 /* ItemRow.swift */,
 				23F938F8240FAF7F00517F62 /* ItemDetail.swift */,
+				23F938FA240FBEB400517F62 /* OrderView.swift */,
+				23FC40E42410A0390083F498 /* AppView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -292,7 +298,9 @@
 				23F938F7240FA13500517F62 /* ItemRow.swift in Sources */,
 				23F938C3240F881E00517F62 /* ContentView.swift in Sources */,
 				23F938F9240FAF7F00517F62 /* ItemDetail.swift in Sources */,
+				23F938FB240FBEB400517F62 /* OrderView.swift in Sources */,
 				23F938EF240F896D00517F62 /* Helper.swift in Sources */,
+				23FC40E52410A0390083F498 /* AppView.swift in Sources */,
 				23F938F3240F8DB300517F62 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
